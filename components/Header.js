@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Image from "next/image";
 import { useSelector, useDispatch } from "react-redux";
-import { toggle } from "../states/sidebarSlice";
+import { toggle } from "../states/SidebarSlice";
 import Link from "next/link";
 import { useRouter } from "next/router";
 
