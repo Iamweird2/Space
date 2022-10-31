@@ -7,7 +7,7 @@ export const apiSlice = createApi({
   reducerPath: "api",
   // All of our requests will have URLs starting with '/fakeApi'
   baseQuery: fetchBaseQuery({
-    baseUrl: " https://my-json-server.typicode.com/Iamweird2/Space",
+    baseUrl: "https://my-json-server.typicode.com/Iamweird2/Space",
   }),
   // The "endpoints" represent operations and requests for this server
   endpoints: (builder) => ({

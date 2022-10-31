@@ -3,7 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/technology": "pages/technology.js",
-  "/": "pages/index.js",
-  "/destination": "pages/destination.js",
-  "/crew": "pages/crew.js"
+  "/": "pages/index.js"
 }
