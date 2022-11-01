@@ -47,7 +47,7 @@ export default function Planet() {
     } else if (router == "/destination/titan") {
       return (
         <EachPlanet
-          name={destination[0].name}
+          name={destination[3].name}
           planet1={destination[0].name}
           planet2={destination[1].name}
           planet3={destination[2].name}
