@@ -23,8 +23,10 @@ export default function Home() {
             experience!
           </p>
         </div>
-        <div className="transition-all ease-in-out text-[20px] font-bellefair bg-cover bg-white text-black text-3xl uppercase flex justify-center items-center w-[150px] h-[150px] sm:w-[242px] sm:h-[242px] sm:text-[32px] rounded-full outline-[30px] outline-transparent hover:outline-sideBar  outline  ">
-          <Link href="destination">explore</Link>
+        <div className="transition-all ease-in-out  text-[20px] font-bellefair bg-cover bg-white text-black text-3xl uppercase flex justify-center items-center w-[150px] h-[150px] sm:w-[242px] sm:h-[242px] sm:text-[32px] rounded-full outline-[30px] outline-transparent hover:outline-sideBar  outline  ">
+          <Link className="text-black" href="destination">
+            explore
+          </Link>
         </div>
       </div>
     </>
