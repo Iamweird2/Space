@@ -18,16 +18,7 @@ a {
 
 * {
   box-sizing: border-box;
+  color: white;
 }
-.active {
-  color: red;
-}
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+
+

@@ -14,8 +14,8 @@ export default function Crew({ name, image, role, bio }) {
           YOUR CREW
         </h2>
 
-        <div className=" md:hidden w-[327px] lg:h-[483px] lg:w-[420px] 2xl:w-[568px] 2xl:self-end 2xl:h-[683px] lg:my-0  h-[327px] my-8 relative  lg:mb-0 2xl:mb-[32px]">
-          <Image src={image} alt={name} fill />
+        <div className=" md:hidden w-[327px] lg:h-[483px]   2xl:self-end 2xl:h-[683px] lg:my-0  h-[327px] my-8 relative  lg:mb-0 2xl:mb-[32px]">
+          <Image src={image} alt={name} layout="fill" />
         </div>
         <nav className=" lg:justify-self-end lg:bottom-[70px] 2xl:bottom-[94px] lg:absolute md:order-4">
           <ul className="flex flex-row gap-4">
@@ -72,8 +72,15 @@ export default function Crew({ name, image, role, bio }) {
           {bio}
         </p>
       </div>
-      <div className="hidden md:inline-flex w-[327px] lg:h-[483px] lg:w-[420px] 2xl:w-[568px] 2xl:self-end 2xl:h-[683px] lg:my-0  h-[327px] my-8 relative order-1 md:mb-0 2xl:mb-[32px]">
-        <Image src={image} alt={name} fill />
+      <div className="hidden md:inline-flex  lg:h-[483px]   2xl:self-end 2xl:h-[683px] lg:my-0  h-[327px] my-8 relative order-1 md:mb-0 2xl:mb-[32px]">
+        <Image
+          src={image}
+          alt={name}
+          sizes="(min-width: 1440px) 568px,
+                    (min-width: 1022px) 420px,
+                    327px"
+          objectFit={contain}
+        />
       </div>
     </section>
   );

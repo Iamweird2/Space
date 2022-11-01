@@ -38,7 +38,7 @@ export default function Sidebar() {
           className={router == "/crew" ? "border-r-4 border-white" : "null"}
         >
           <li>
-            <span className="mr-3 text-lg font-bold">00</span>CREW
+            <span className="mr-3 text-lg font-bold">01</span>CREW
           </li>
         </Link>
         <Link
@@ -51,7 +51,7 @@ export default function Sidebar() {
           }
         >
           <li>
-            <span className="mr-3 text-lg font-bold">00</span> DESTINATION
+            <span className="mr-3 text-lg font-bold">02</span> DESTINATION
           </li>
         </Link>
         <Link
@@ -64,7 +64,7 @@ export default function Sidebar() {
           }
         >
           <li>
-            <span className="mr-3 text-lg font-bold">00</span> TECHNOLOGY
+            <span className="mr-3 text-lg font-bold">03</span> TECHNOLOGY
           </li>
         </Link>
       </nav>
